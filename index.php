@@ -41,13 +41,13 @@
               <li><a href="about.html">About</a></li>
               <li><a href="tutor.html">Tutorials And Learning</a></li>
               <li><a href="blog.html">Review</a></li>
-              <li class="d-lg-none"><a href="contact.html">Login</a></li>
+              <li class="d-lg-none"><a href="login">Login</a></li>
             </ul>
           </nav>
 
           <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
             <div class="ml-auto">
-              <a href="contact.html" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-paper-plane"></span>Login</a>
+              <a href="login" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-paper-plane"></span>Login</a>
             </div>
             <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span class="icon-menu h3 m-0 p-0 mt-2"></span></a>
           </div>
@@ -169,7 +169,7 @@
             echo '</div>';
             echo '<div class="col-md-4">';
               echo "<span class='badge badge-success px-2 py-1 mb-3'>".$data['status']."</span>";
-                echo "<h2><a href=distro-info.html>".$data['distro']."</a> </h2>";
+                echo "<h2><a href=distro-list/distro-".$data['distro'].".html>".$data['distro']."</a> </h2>";
             echo '</div>';
             echo '<div class="col-md-3 text-left">';
               echo '<h3>'.$data['versi'].'</h3>';

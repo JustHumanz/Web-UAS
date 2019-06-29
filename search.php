@@ -108,7 +108,7 @@
     echo '</div>';
     echo '<div class="col-md-4">';
       echo "<span class='badge badge-success px-2 py-1 mb-3'>".$data['status']."</span>";
-        echo "<h2><a href=distro-info.html>".$data['distro']."</a> </h2>";
+        echo "<h2><a href=distro-list/distro-".$data['distro'].".html>".$data['distro']."</a> </h2>";
     echo '</div>';
     echo '<div class="col-md-3 text-left">';
       echo '<h3>'.$data['versi'].'</h3>';

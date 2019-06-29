@@ -214,7 +214,7 @@ Zorin OS is an Ubuntu-based Linux distribution designed especially for newcomers
 
 Recommended
 � CPU : Dual Core 2.1 GHz
-� RAM : 1 GB
+� RAM : 2 GB
 � Hard Drive space : 20 GB
 � VGA : graphics card 1024x768 resoluition
 � CD-ROM,NIC & Sound card adapter
