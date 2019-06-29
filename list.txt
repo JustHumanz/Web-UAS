@@ -1,0 +1,576 @@
+1.Ubuntu
+
+Recommended
+� CPU : Dual Core 2.1 GHz
+� RAM : 4 GB
+� Hard Drive space : 8 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1.0 GHz
+� RAM : 512 MB
+� Hard Drive space : 4 GB (full installation + swap space)
+� VGA : Graphics card 640x480 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Ubuntu is a complete desktop Linux operating system, freely available with both community and professional support. The Ubuntu community is built on the ideas enshrined in the Ubuntu Manifesto: that software should be available free of charge, that software tools should be usable by people in their local language and despite any disabilities, and that people should have the freedom to customise and alter their software in whatever way they see fit. "Ubuntu" is an ancient African word, meaning "humanity to others". The Ubuntu distribution brings the spirit of Ubuntu to the software world.
+---------------------------------------------------------------
+
+2.Xubuntu
+
+Recommended
+� CPU : Dual Core 2.1 GHz
+� RAM : 1 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1.0 GHz
+� RAM : 512 MB
+� Hard Drive space : 7.5 GB
+� Vga : Graphical card 640x480 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Xubuntu is a community-developed operating system based on Ubuntu. It comes with Xfce, which is a stable, light and configurable desktop environment.
+
+---------------------------------------------------------------
+3.Lubuntu
+
+Recommended
+� CPU : 513 MHz
+� RAM : 512 MB
+� Hard Drive space : 6 GB
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 266 MHz
+� RAM : 128 MB
+� Hard Drive space : 3 GB
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Lubuntu is a variant of Ubuntu that uses the LXQt desktop environment. (Versions prior to 18.10 shipped with the LXDE desktop.) It includes essential applications and services for daily use, including office suite, PDF reader, image editor and multimedia players. A distribution available for both 32-bit and 64-bit computers, Lubuntu is intended to be user-friendly, lightweight and energy efficient.
+---------------------------------------------------------------
+4.Kubuntu
+
+Recommended
+� CPU : Dual Core 2.0 GHz
+� RAM : 2 GB
+� Hard Drive space : 20 GB
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1 GHz
+� RAM : 1 GB
+� Hard Drive space : 10 GB
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Kubuntu is a free, user-friendly Linux distribution based on KDE's desktop software and on the Ubuntu operating system. It has a biannual release cycle. Besides providing an up-to-date version of the KDE desktop at the time of the release, the project also releases updated KDE packages throughout the lifetime of each release.
+---------------------------------------------------------------
+5.Ubuntu-Mate
+
+Recommended
+� CPU : Core 2 Duo 1.6 GHz
+� RAM : 2 GB
+� Hard Drive space : 16 GB
+� VGA graphics card 3D 1366x768 resoluition
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 750 MHz
+� RAM : 512 MB
+� Hard Drive space : 8 GB
+� VGA graphics card 1024x768 resoluition
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Ubuntu MATE is a desktop Linux distribution which aims to bring the simplicity and elegance of the Ubuntu operating system through a classic, traditional desktop environment - the MATE desktop. MATE is the continuation of the GNOME 2 desktop environment which was used as Ubuntu's default desktop until 10.10 (when it was replaced by Unity). The project began its life as an Ubuntu "remix", but starting with version 15.04, it was formally accepted as an official member of the Ubuntu family of Linux distributions.
+
+---------------------------------------------------------------
+6.Ubuntu-Budgie
+
+Recommended
+� CPU : Dual Core 2.1 GHz
+� RAM : 4 GB
+� Hard Drive space : 8 GB
+� Vga Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1.5 GHz
+� RAM : 2 GB
+� Hard Drive space : 60 GB
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Ubuntu Budgie (previously budgie-remix) is an Ubuntu-based distribution featuring the Budgie desktop, originally developed by the Solus project. Written from scratch and integrating tightly with GNOME stack, Budgie focuses on simplicity and elegance, while also offering useful features, such as the Raven notification and customisation centre.
+---------------------------------------------------------------
+7.Ubuntu-Studio
+
+Recommended
+� CPU : Core 2 Duo 1.8 GHz
+� RAM : 8 GB
+� Hard Drive space : 26 GB
+� VGA : graphics card 3D 1366x768 resoluition
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1.0 GHz
+� RAM : 1 GB
+� Hard Drive space : 10 GB
+� VGA : graphics card 3D 1366x768 resoluition
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Ubuntu Studio is a variant of Ubuntu aimed at the GNU/Linux audio, video and graphic enthusiast as well as professional. The distribution provides a collection of open-source applications available for multimedia creation.
+
+---------------------------------------------------------------
+8.Debian
+
+Recommended
+� CPU : Dual Core 2.1 GHz
+� RAM : 2 GB
+� Hard Drive space : 40 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1.1 GHz
+� RAM : 512 GB
+� Hard Drive space : 10 GB
+� Vga : Graphical card 800x600 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+The Debian Project is an association of individuals who have made common cause to create a free operating system. This operating system is called Debian. Debian systems currently use the Linux kernel. Linux is a completely free piece of software started by Linus Torvalds and supported by thousands of programmers worldwide. Of course, the thing that people want is application software: programs to help them get what they want to do done, from editing documents to running a business to playing games to writing more software. Debian comes with over 50,000 packages (precompiled software that is bundled up in a nice format for easy installation on your machine) - all of it free. It's a bit like a tower. At the base is the kernel. On top of that are all the basic tools. Next is all the software that you run on the computer. At the top of the tower is Debian -- carefully organizing and fitting everything so it all works together.
+---------------------------------------------------------------
+9.Deepin
+
+Recommended
+� CPU : Core 2/i3 2.4 Ghz
+� RAM : 4 GB
+� Hard Drive space : 50 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 2.1 GHz
+� RAM : 2 GB
+� Hard Drive space : 10 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+
+Distro Description:
+deepin (formerly, Deepin, Linux Deepin, Hiweed GNU/Linux) is a Debian-based distribution (it was Ubuntu-based until version 15 released in late 2015) that aims to provide an elegant, user-friendly and reliable operating system. It does not only include the best the open source world has to offer, but it has also created its own desktop environment called DDE or Deepin Desktop Environment which is based on the Qt 5 toolkit. Deepin focuses much of its attention on intuitive design. Its home-grown applications, like Deepin Software Centre, DMusic and DPlayer are tailored to the average user. Being easy to install and use, deepin can be a good Windows alternative for office and home use.
+---------------------------------------------------------------
+10.Kali linux
+
+Recommended
+� CPU : Dual Core 2.4 GHz
+� RAM : 2 GB
+� Hard Drive space : 40 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1.0 GHz
+� RAM : 1 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 800x600 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Kali Linux (formerly known as BackTrack) is a Debian-based distribution with a collection of security and forensics tools. It features timely security updates, support for the ARM architecture, a choice of four popular desktop environments, and seamless upgrades to newer versions.
+---------------------------------------------------------------
+11.Zorin
+
+Recommended
+� CPU : 1 GHz Dual Core
+� RAM : 2 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1 GHz
+� RAM : 512 MB
+� Hard Drive space : 7 GB
+� Vga : Graphical card 800x600 pixels
+� CD-ROM,NIC & Sound card adapter
+
+
+Distro Description:
+
+
+Zorin OS is an Ubuntu-based Linux distribution designed especially for newcomers to Linux. It has a Windows-like Graphical user interface and many programs similar to those found in Windows. Zorin OS also comes with an application that lets users run many Windows programs. The distribution's ultimate goal is to provide a Linux alternative to Windows and let Windows users enjoy all the features of Linux without complications.
+---------------------------------------------------------------
+12.Linux Mint
+
+Recommended
+� CPU : Dual Core 2.1 GHz
+� RAM : 1 GB
+� Hard Drive space : 20 GB
+� VGA : graphics card 1024x768 resoluition
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1.0 GHz
+� RAM : 512 MB
+� Hard Drive space : 5 GB
+� VGA : graphics card 800×600 resolution
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Linux Mint is an Ubuntu-based distribution whose goal is to provide a classic desktop experience with many convenient, custom tools and optional out-of-the-box multimedia support. It also adds a custom desktop and menus, several unique configuration tools, and a web-based package installation interface. Linux Mint is compatible with Ubuntu software repositories.
+
+---------------------------------------------------------------
+13.Arch linux
+
+Recommended
+� CPU : 1.5 GHz
+� RAM : 512 MB
+� Hard Drive space : 5 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 513 MHz
+� RAM : 512 MB
+� Hard Drive space : 3 GB
+� Vga : Graphical card 640x480 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Arch Linux is an independently developed, x86_64-optimised Linux distribution targeted at competent Linux users. It uses 'pacman', its home-grown package manager, to provide updates to the latest software applications with full dependency tracking. Operating on a rolling release system, Arch can be installed from a CD image or via an FTP server. The default install provides a solid base that enables users to create a custom installation. In addition, the Arch Build System (ABS) provides a way to easily build new packages, modify the configuration of stock packages, and share these packages with other users via the Arch Linux user repository.
+---------------------------------------------------------------
+14.Manjaro
+
+Recommended
+� CPU : Dual Core 1.5 GHz
+� RAM : 2 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+
+Minimum
+� CPU : 1.0 GHz
+� RAM : 1 GB
+� Hard Drive space : 10 GB
+� Vga : Graphical card 640x480 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Manjaro Linux is a fast, user-friendly, desktop-oriented operating system based on Arch Linux. Key features include intuitive installation process, automatic hardware detection, stable rolling-release model, ability to install multiple kernels, special Bash scripts for managing graphics drivers and extensive desktop configurability. Manjaro Linux offers Xfce as the core desktop options, as well as KDE, GNOME and a minimalist Net edition for more advanced users. Community-supported desktop flavours are also available.
+---------------------------------------------------------------
+15.MX-Linux
+
+Recommended
+� CPU : Dual Core 1.6 GHz
+� RAM : 512 MB
+� Hard Drive space : 5 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 266 MHz
+� RAM : 128 MB
+� Hard Drive space : 3 GB
+� Vga : Graphical card 640x480 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+MX Linux, a desktop-oriented Linux distribution based on Debian's "stable" branch, is a cooperative venture between the antiX and former MEPIS Linux communities. Using Xfce as the default desktop, it is a mid-weight operating system designed to combine an elegant and efficient desktop with simple configuration, high stability, solid performance and medium-sized footprint.
+---------------------------------------------------------------
+16.Elementary
+
+Recommended
+� CPU : Dual Core 2.1 GHz
+� RAM : 4 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1.0 GHz
+� RAM : 2 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 800x600 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+elementary OS is an Ubuntu-based desktop distribution. Some of its more interesting features include a custom desktop environment called Pantheon and many custom apps including Photos, Music, Videos, Calendar, Terminal, Files, and more. It also comes with some familiar apps like the Epiphany web browser and a fork of Geary mail.
+---------------------------------------------------------------
+17.Fedora
+
+Recommended
+� CPU : Dual Core 2.1 GHz
+� RAM : 2 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1 GHz
+� RAM : 1 GB
+� Hard Drive space : 10 GB
+� Vga : Graphical card 800x600 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Fedora (formerly Fedora Core) is a Linux distribution developed by the community-supported Fedora Project and owned by Red Hat. Fedora contains software distributed under a free and open-source license and aims to be on the leading edge of such technologies. Fedora has a reputation for focusing on innovation, integrating new technologies early on and working closely with upstream Linux communities. The default desktop in Fedora is the GNOME desktop environment and the default interface is the GNOME Shell. Other desktop environments, including KDE, Xfce, LXDE, MATE and Cinnamon, are available. Fedora Project also distributes custom variations of Fedora called Fedora spins. These are built with specific sets of software packages, offering alternative desktop environments or targeting specific interests such as gaming, security, design, scientific computing and robotics.
+---------------------------------------------------------------
+18.Parrot
+
+Recommended
+� CPU : Dual Core 2.1 GHz
+� RAM : 2 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 700 MHz
+� RAM : 512 MB
+� Hard Drive space : 16 GB
+� Vga : Graphical card 640x480 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Parrot (formerly Parrot Security OS) is a Debian-based, security-oriented distribution featuring a collection of utilities designed for penetration testing, computer forensics, reverse engineering, hacking, privacy, anonymity and cryptography. The product, developed by Frozenbox, comes with MATE as the default desktop environment.
+
+---------------------------------------------------------------
+19.Gentoo
+
+Recommended
+� CPU : 1.0 GHz
+� RAM : 512 MB
+� Hard Drive space : 10 GB
+� Vga : Graphical card 800x600 pixels
+� CD-ROM,NIC & Sound card adapter
+
+
+Minimum
+� CPU : 700 MHz
+� RAM : 256 MB
+� Hard Drive space : 4 GB
+� Vga : Graphical card 640x480 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Gentoo Linux is a versatile and fast, completely free Linux distribution geared towards developers and network professionals. Unlike other distros, Gentoo Linux has an advanced package management system called Portage. Portage is a true ports system in the tradition of BSD ports, but is Python-based and sports a number of advanced features including dependencies, fine-grained package management, "fake" (OpenBSD-style) installs, safe unmerging, system profiles, virtual packages, config file management, and more.
+
+---------------------------------------------------------------
+20.LFS
+
+� CPU : 500 MHz
+� RAM : 256 MB
+� Hard Drive space : 5 GB
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Linux From Scratch (LFS) is a project that provides you with the steps necessary to build your own custom Linux system. There are a lot of reasons why somebody would want to install an LFS system. The question most people raise is "why go through all the hassle of manually installing a Linux system from scratch when you can just download an existing distribution like Debian or Redhat". That is a valid question which I hope to answer for you. The most important reason for LFS's existence is teaching people how a Linux system works internally. Building an LFS system teaches you about all that makes Linux tick, how things work together, and depend on each other. And most importantly, how to customize it to your own taste and needs.
+---------------------------------------------------------------
+21.Tails
+
+Recommended
+� CPU : Dual Core/i3 2.0 GHz
+� RAM : 2 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1.0 GHz
+� RAM : 1 GB
+� Hard Drive space : 10 GB
+� Vga : Graphical card 800x600 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+The Amnesic Incognito Live System (Tails) is a Debian-based live DVD/USB with the goal of providing complete Internet anonymity for the user. The product ships with several Internet applications, including web browser, IRC client, mail client and instant messenger, all pre-configured with security in mind and with all traffic anonymised. To achieve this, Incognito uses the Tor network to make Internet traffic very hard to trace.
+
+---------------------------------------------------------------
+22.Pop!_OS
+
+Recommended
+� CPU : Core i3 2.0 GHz
+� RAM : 4 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 2.0 GHz
+� RAM : 2 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 800x600 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Pop!_OS is an Ubuntu-based Linux distribution featuring a custom GNOME desktop. Pop!_OS is designed to have a minimal amount of clutter on the desktop without distractions in order to allow the user to focus on work. The distribution is developed by Linux computer retailer System76.
+---------------------------------------------------------------
+23.openSUSE
+
+Recommended
+� CPU : 2.4 GHz
+� RAM : 2 GB
+� Hard Drive space : 5 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1.6 GHz
+� RAM : 1 GB
+� Hard Drive space : 3 GB
+� Vga : Graphical card 800x600 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+The openSUSE project is a community program sponsored by SUSE Linux and other companies. Promoting the use of Linux everywhere, this program provides free, easy access to openSUSE, a complete Linux distribution. The openSUSE project has three main goals: make openSUSE the easiest Linux for anyone to obtain and the most widely used Linux distribution; leverage open source collaboration to make openSUSE the world's most usable Linux distribution and desktop environment for new and experienced Linux users; dramatically simplify and open the development and packaging processes to make openSUSE the platform of choice for Linux developers and software vendors.
+
+---------------------------------------------------------------
+24.Endless OS
+
+Recommended
+� CPU : 2.4 GHz
+� RAM : 2 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 2.0 GHz
+� RAM : 2 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 640x480 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Endless OS is a Linux-based operating system which provides a simplified and streamlined user experience using a customized desktop environment forked from GNOME 3. Rather than using a traditional Linux package management system, Endless OS uses a read-only root file system managed by OSTree with application bundles overlaid on top.
+
+---------------------------------------------------------------
+25.Android-x86
+
+Recommended
+� CPU : 2.1 GHz
+� RAM : 2 GB
+� Hard Drive space : 20 GB + UP
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1.0 GHz
+� RAM : 1 GB
+� Hard Drive space : 7 GB
+� Vga : Graphical card 640x480 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Android-x86 is an unofficial initiative to port Google's Android mobile operating system to run on devices powered by Intel and AMD x86 processors, rather than RISC-based ARM chips. The project began as a series of patches to the Android source code to enable Android to run on various netbooks and ultra-mobile PCs, particularly the ASUS Eee PC.
+
+---------------------------------------------------------------
+26.BackBox Linux
+
+Recommended
+� CPU : Dual Core 2.1 GHz
+� RAM : 2 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1.0 GHz
+� RAM : 1 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 640x480 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+BackBox Linux is an Ubuntu-based distribution developed to perform penetration tests and security assessments. It is designed to be fast and easy to use. It provides a minimal yet complete desktop environment, thanks to its own software repositories, which are always updated to the latest stable versions of the most often used and best-known ethical hacking tools.
+---------------------------------------------------------------
+27.Solus
+
+Recommended
+� CPU : 2.4 Ghz + UP
+� RAM : 8 GB
+� Hard Drive space : 11 GB
+� VGA : Graphics card 2048x1536 resoluition
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 2.0 Ghz
+� RAM : 4 GB
+� Hard Drive space : 8 GB
+� VGA : Graphics card 800x600 resoluition
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+Solus is a Linux distribution built from scratch. It uses a forked version of the PiSi package manager, maintained as "eopkg" within Solus, and a custom desktop environment called "Budgie", developed in-house. The Budgie desktop, which can be set to emulate the look and feel of the GNOME 2 desktop, is tightly integrated with the GNOME stack. The distribution is available for 64-bit computers only.
+
+---------------------------------------------------------------
+28.BlankOn
+
+Recommended
+� CPU : 2.1 GHz
+� RAM : 2 GB
+� Hard Drive space : 40 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1 GHz
+� RAM : 1 GB
+� Hard Drive space : 15 GB
+� Vga : Graphical card 640x480 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+BlankOn is an Debian-based distribution developed by the Indonesian Linux Mover Foundation and BlankOn developer team. It is an Indonesian distribution that includes a variety of software that is widely used by consumers in general, such as office programs, financial applications, Internet applications, drawing (both vector and bitmap), support for various multimedia file formats, as well as other interesting programs.
+
+---------------------------------------------------------------
+29.DracOs
+
+Recommended
+� CPU : 2.1 GHz
+� RAM : 1 GB
+� Hard Drive space : 15 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 1.0 Mhz
+� RAM : 512 Mb
+� Hard Drive space : 6 GB
+� CD-ROM,NIC & Sound card adapter
+� Vga : Graphical card 640x480 pixels
+
+Distro Description:
+dracOs Linux is the Penetration OS (Operating System) from Indonesian, open source is built based on the LFS (Linux From Scratch) under the protection of the GNU General Public License v3.0. This operating system is one variant of Linux distributions, which is used to perform security testing (Penetration Testing). dracOs Linux in arm by hundreds hydraulic pentest, forensics and reverse engineering. dracOs Linux is a lightweight linux because for desktop use DWM (Dynamic Window Manager) and suitable for Pentester. Does not use a GUI-based tools and just have the software using the CLI (command line interface) to perform its operations
+---------------------------------------------------------------
+
+30.CentOS
+
+Recommended
+� CPU : Dual Core 2.1 Ghz
+� RAM : 2 GB
+� Hard Drive space : 20 GB
+� Vga : Graphical card 1024x768 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Minimum
+� CPU : 713 Mhz
+� RAM : 512 Mb
+� Hard Drive space : 5 GB
+� Vga : Graphical card 640x480 pixels
+� CD-ROM,NIC & Sound card adapter
+
+Distro Description:
+CentOS as a group is a community of open source contributors and users. Typical CentOS users are organisations and individuals that do not need strong commercial support in order to achieve successful operation. CentOS is 100% compatible rebuild of the Red Hat Enterprise Linux, in full compliance with Red Hat's redistribution requirements. CentOS is for people who need an enterprise class operating system stability without the cost of certification and support.
+---------------------------------------------------------------

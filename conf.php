@@ -8,7 +8,7 @@ $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $d
 
 // mengecek koneksi
 if (!$mysqli) {
-    //die("Koneksi gagal: " . mysqli_connect_error());
+    die("Koneksi gagal: " . mysqli_connect_error());
 }else {
     //echo "Koneksi berhasil";
 }
