@@ -34,7 +34,7 @@
     <header class="site-navbar mt-3">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="site-logo col-6"><a href="index.html">Careers</a></div>
+          <div class="site-logo col-6"><a href="index.html">Gnu/Linux</a></div>
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
@@ -49,11 +49,9 @@
 
           <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
             <div class="ml-auto">
-              <a href="contact.html" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span
-                  class="mr-2 icon-paper-plane"></span>Contact Us</a>
+              <a href="contact.html" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-paper-plane"></span>Login</a>
             </div>
-            <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span
-                class="icon-menu h3 m-0 p-0 mt-2"></span></a>
+            <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span class="icon-menu h3 m-0 p-0 mt-2"></span></a>
           </div>
 
         </div>
@@ -61,76 +59,68 @@
     </header>
 
     <!-- HOME -->
-    <section class="home-section section-hero overlay bg-image" style="background-image: url('images/pakde.png');" id="home-section">
+    <section class="home-section section-hero-cos overlay bg-image-cos" style="background-image: url('images/pakde.png');" id="home-section">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-12">
             <div class="mb-5 text-center">
-              <h1 class="text-white font-weight-bold">Our Blog</h1>
-              <p>Find your dream jobs in our powerful career website template.</p>
+              <h1 class="text-white font-weight-bold">Distro Listings</h1>
+              <p>Find your best distro in our powerful website .</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-
-    <section class="site-section">
+    <section class="site-section-cos">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-6 col-lg-4 mb-5">
-            <a href="blog-single.html"><img src="images/sq_img_1.jpg" alt="Free Website Template by Free-Template.co"
-                class="img-fluid rounded mb-4"></a>
-            <h3><a href="blog-single.html" class="text-black">7 Factors for Choosing Between Two Jobs</a></h3>
-            <div>April 15, 2019 <span class="mx-2">|</span> <a href="#">2 Comments</a></div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-5">
-            <a href="blog-single.html"><img src="images/sq_img_2.jpg" alt="Free Website Template by Free-Template.co"
-                class="img-fluid rounded mb-4"></a>
-            <h3><a href="blog-single.html" class="text-black">How to Write a Creative Cover Letter</a></h3>
-            <div>April 15, 2019 <span class="mx-2">|</span> <a href="#">2 Comments</a></div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-5">
-            <a href="blog-single.html"><img src="images/sq_img_3.jpg" alt="Free Website Template by Free-Template.co"
-                class="img-fluid rounded mb-4"></a>
-            <h3><a href="blog-single.html" class="text-black">The Right Way to Quit a Job You Started</a></h3>
-            <div>April 15, 2019 <span class="mx-2">|</span> <a href="#">2 Comments</a></div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-5">
-            <a href="blog-single.html"><img src="images/sq_img_4.jpg" alt="Free Website Template by Free-Template.co"
-                class="img-fluid rounded mb-4"></a>
-            <h3><a href="blog-single.html" class="text-black">7 Factors for Choosing Between Two Jobs</a></h3>
-            <div>April 15, 2019 <span class="mx-2">|</span> <a href="#">2 Comments</a></div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-5">
-            <a href="blog-single.html"><img src="images/sq_img_1.jpg" alt="Free Website Template by Free-Template.co"
-                class="img-fluid rounded mb-4"></a>
-            <h3><a href="blog-single.html" class="text-black">How to Write a Creative Cover Letter</a></h3>
-            <div>April 15, 2019 <span class="mx-2">|</span> <a href="#">2 Comments</a></div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-5">
-            <a href="blog-single.html"><img src="images/sq_img_2.jpg" alt="Free Website Template by Free-Template.co"
-                class="img-fluid rounded mb-4"></a>
-            <h3><a href="blog-single.html" class="text-black">The Right Way to Quit a Job You Started</a></h3>
-            <div>April 15, 2019 <span class="mx-2">|</span> <a href="#">2 Comments</a></div>
-          </div>
+        <div class="row mb-5 justify-content-center">
         </div>
-        <div class="row pagination-wrap mt-5">
+        <?php
+          if(isset($_GET['page'])){
+            $page = $_GET['page'];
+            $ac = "active";
+              		switch ($page) {
+              			case '1':
+              				include "distro/distro1.php";
+              				break;
+              			case '2':
+              				include "distro/distro2.php";
+              				break;
+              			case '3':
+              				include "distro/distro3.php";
+              				break;
+                    case '4';
+                      include "distro/distro4.php";
+                      break;
+                    case '5';
+                      include "distro/distro5.php";
+                      break;
+                    case '6';
+                      include "distro/distro6.php";
+                      break;
+              			default:
+              				echo "<center><h3>Maaf. Halaman tidak di temukan !</h3></center>";
+              				break;
+              		}
+              	}else{
+              		include "distro.php?page=1";
+              	}
+          ?>
+        <div class="row pagination-wrap">
 
-          <div class="col-md-12 text-center ">
+          <div class="col-md-6 text-center text-md-left">
             <div class="custom-pagination ml-auto">
-              <a href="#" class="prev">Previous</a>
               <div class="d-inline-block">
-                <a href="#" class="active">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
+                <a href="distro.php?page=1">1</a>
+                <a href="distro.php?page=2">2</a>
+                <a href="distro.php?page=3">3</a>
+                <a href="distro.php?page=4">4</a>
+                <a href="distro.php?page=5">5</a>
+                <a href="distro.php?page=6">6</a>
               </div>
-              <a href="#" class="next">Next</a>
             </div>
           </div>
         </div>
-
       </div>
     </section>
 
@@ -178,6 +168,9 @@
   <script src="js/jquery.waypoints.min.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
+
+  <!-- <script src="js/bootstrap-select.min.js"></script> -->
+
   <script src="js/custom.js"></script>
 
 

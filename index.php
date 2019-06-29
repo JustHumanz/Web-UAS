@@ -36,8 +36,8 @@
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-              <li><a href="index.html" class="nav-link active">Home</a></li>
-              <li><a href="distro.html">Distro List</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="distro.php?page=1">Distro List</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="tutor.html">Tutorials And Learning</a></li>
               <li><a href="blog.html">Review</a></li>
@@ -64,14 +64,14 @@
           <div class="col-md-15">
             <div class="mb-10 text-center">
               <h1 class="text-white font-weight-bold">A Powerful distro Gnu/Linux recommendation</h1>
-              <p>Find your distro for your PC</p>
+              <p>Find your distro for your PC/Laptop</p>
             </div>
             <form method="post" class="search-jobs-form" action="search.php">
               <div class="row mb-5">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                   <select class="form-control" name="satu">
                     <option value="beginner">Beginner</option>
-                    <option value="advanced">Advanced</option>
+                    <option value="advance">Advanced</option>
                     <option value="expert">Expert</option>
                   </select>
                 </div>
@@ -147,149 +147,45 @@
 
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
-            <h2 class="section-title mb-2">30 Best Distro has Selected for you</h2>
+            <h2 class="section-title mb-2">Top 5 Distro</h2>
           </div>
         </div>
 
 
         <div class="mb-5">
-          <div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">
-            <div class="col-md-2">
-              <a href="distro-info.html"><img src="images/featured-listing-1.jpg" alt="Image" class="img-fluid"></a>
-            </div>
-            <div class="col-md-4">
-              <span class="badge badge-primary px-2 py-1 mb-3">Freelancer</span>
-              <h2><a href="distro-info.html">Dropbox Product Designer</a> </h2>
-              <p class="meta">Publisher: <strong>John Stewart</strong> In: <strong>Design</strong></p>
-            </div>
-            <div class="col-md-6 text-right">
-              <h4><a href="down.php" target="_blank"</a><img src="images/down.png" alt="Image" height=100 width=100></h4>
-            </div>
-          </div>
+          <?php
+            include_once("conf.php");
+            $a = $_POST['satu'];
+            $aa = $_POST['dua'];
+            $aaa = $_POST['tiga'];
+            $b = "SELECT * FROM os.main where main.id in (13,9,1,10,29)";
+            $query = mysqli_query($mysqli, $b);
+            $zeeb = 0;
+             while($data = mysqli_fetch_array($query)) {
 
-          <div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">
-            <div class="col-md-2">
-              <a href="distro-info.html"><img src="images/featured-listing-2.jpg" alt="Image" class="img-fluid"></a>
-            </div>
-            <div class="col-md-4">
-              <span class="badge badge-warning px-2 py-1 mb-3">Full-time</span>
-              <h2><a href="distro-info.html">Creative Director in Intercom</a> </h2>
-              <p class="meta">Publisher: <strong>John Stewart</strong> In: <strong>Design</strong></p>
-            </div>
-            <div class="col-md-3 text-left">
-              <h3>London</h3>
-              <span class="meta">United Kingdom</span>
-            </div>
-            <div class="col-md-3 text-md-right">
-              <strong class="text-black">$60k &mdash; $100k</strong>
-            </div>
-          </div>
-
-          <div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">
-            <div class="col-md-2">
-              <a href="distro-info.html"><img src="images/featured-listing-3.jpg" alt="Image" class="img-fluid"></a>
-            </div>
-            <div class="col-md-4">
-              <span class="badge badge-success px-2 py-1 mb-3">Part-time</span>
-              <h2><a href="distro-info.html">FullStack Developer in Shopify</a> </h2>
-              <p class="meta">Publisher: <strong>John Stewart</strong> In: <strong>Design</strong></p>
-            </div>
-            <div class="col-md-3 text-left">
-              <h3>London</h3>
-              <span class="meta">United Kingdom</span>
-            </div>
-            <div class="col-md-3 text-md-right">
-              <strong class="text-black">$60k &mdash; $100k</strong>
-            </div>
-          </div>
-          <div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">
-            <div class="col-md-2">
-              <a href="distro-info.html"><img src="images/featured-listing-4.jpg" alt="Image" class="img-fluid"></a>
-            </div>
-            <div class="col-md-4">
-              <span class="badge badge-primary px-2 py-1 mb-3">Freelancer</span>
-              <h2><a href="distro-info.html">Dropbox Product Designer</a> </h2>
-              <p class="meta">Publisher: <strong>John Stewart</strong> In: <strong>Design</strong></p>
-            </div>
-            <div class="col-md-3 text-left">
-              <h3>Melbourn</h3>
-              <span class="meta">Australia</span>
-            </div>
-            <div class="col-md-3 text-md-right">
-              <strong class="text-black">$60k &mdash; $100k</strong>
-            </div>
-          </div>
-
-          <div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">
-            <div class="col-md-2">
-              <a href="distro-info.html"><img src="images/featured-listing-5.jpg" alt="Image" class="img-fluid"></a>
-            </div>
-            <div class="col-md-4">
-              <span class="badge badge-warning px-2 py-1 mb-3">Full-time</span>
-              <h2><a href="distro-info.html">Creative Director in Intercom</a> </h2>
-              <p class="meta">Publisher: <strong>John Stewart</strong> In: <strong>Design</strong></p>
-            </div>
-            <div class="col-md-3 text-left">
-              <h3>London</h3>
-              <span class="meta">United Kingdom</span>
-            </div>
-            <div class="col-md-3 text-md-right">
-              <strong class="text-black">$60k &mdash; $100k</strong>
-            </div>
-          </div>
-
-          <div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">
-            <div class="col-md-2">
-              <a href="distro-info.html"><img src="images/featured-listing-4.jpg" alt="Image" class="img-fluid"></a>
-            </div>
-            <div class="col-md-4">
-              <span class="badge badge-success px-2 py-1 mb-3">Part-time</span>
-              <h2><a href="distro-info.html">FullStack Developer in Shopify</a> </h2>
-              <p class="meta">Publisher: <strong>John Stewart</strong> In: <strong>Design</strong></p>
-            </div>
-            <div class="col-md-3 text-left">
-              <h3>London</h3>
-              <span class="meta">United Kingdom</span>
-            </div>
-            <div class="col-md-3 text-md-right">
-              <strong class="text-black">$60k &mdash; $100k</strong>
-            </div>
-          </div>
-
-          <div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">
-            <div class="col-md-2">
-              <a href="distro-info.html"><img src="images/featured-listing-3.jpg" alt="Image" class="img-fluid"></a>
-            </div>
-            <div class="col-md-4">
-              <span class="badge badge-success px-2 py-1 mb-3">Part-time</span>
-              <h2><a href="distro-info.html">FullStack Developer in Shopify</a> </h2>
-              <p class="meta">Publisher: <strong>John Stewart</strong> In: <strong>Design</strong></p>
-            </div>
-            <div class="col-md-3 text-left">
-              <h3>London</h3>
-              <span class="meta">United Kingdom</span>
-            </div>
-            <div class="col-md-3 text-md-right">
-              <strong class="text-black">$60k &mdash; $100k</strong>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row pagination-wrap">
-
-          <div class="col-md-6 text-center text-md-left">
-            <div class="custom-pagination ml-auto">
-              <a href="#" class="prev">Previous</a>
-              <div class="d-inline-block">
-                <a href="#" class="active">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-              </div>
-              <a href="#" class="next">Next</a>
-            </div>
-          </div>
+          echo '<div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">';
+            echo '<div class="col-md-2">';
+              echo "<a href=distro-info.html><img src=images/icon/".$data['distro'].".png alt='Image' class=img-fluid></a>";
+            echo '</div>';
+            echo '<div class="col-md-4">';
+              echo "<span class='badge badge-success px-2 py-1 mb-3'>".$data['status']."</span>";
+                echo "<h2><a href=distro-info.html>".$data['distro']."</a> </h2>";
+            echo '</div>';
+            echo '<div class="col-md-3 text-left">';
+              echo '<h3>'.$data['versi'].'</h3>';
+              echo '<span class="meta">'.$data['base'].'</span><br>';
+              echo '<span class="meta">'.$data['package'].'</span>';
+            echo '</div>';
+            echo '<div class="col-md-3 text-right">';
+              echo "<h4><a href=".$data['link']." target=_blank</a><img src='images/down.png' alt='Image' height=100 width=100></a></h4>";
+            echo '</div>';
+          echo '</div>';
+          if ($zeeb == 5) {
+            break;
+          }
+          $zeeb++;
+        }
+         ?>
         </div>
 
       </div>

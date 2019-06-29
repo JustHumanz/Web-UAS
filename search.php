@@ -37,8 +37,8 @@
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-              <li><a href="index.html" class="nav-link active">Home</a></li>
-              <li><a href="distro.html">Distro List</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="distro.php?page=1">Distro List</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="tutor.html">Tutorials And Learning</a></li>
               <li><a href="blog.html">Review</a></li>
@@ -81,15 +81,16 @@
         $a = $_POST['satu'];
         $aa = $_POST['dua'];
         $aaa = $_POST['tiga'];
-        $b = "SELECT $aa.distro,main.status,$a.link,$a.versi,$aa.package,$a.base from $a,$aa,$aaa,main where $a.distro=$aa.distro and $aa.distro=$aaa.distro group by $a.distro";
+        $b = "SELECT $aa.distro,main.status,main.link,main.versi,main.package,main.base from $a,$aa,$aaa,main where $a.distro=$aa.distro and $aa.distro=$aaa.distro and $aaa.distro=main.distro group by $a.distro";
           #$b = "SELECT * from main";
         $query = mysqli_query($mysqli, $b);
         $count = mysqli_num_rows($query);
         if ($count == 0) {
-          $b = "SELECT $aa.distro,main.status,$a.link,$a.versi,$aa.package,$a.base from $a,$aa,main where $a.distro=$aa.distro group by $a.distro";
+          $b = "SELECT $aa.distro,main.status,main.link,main.versi,main.package,main.base from $a,$aa,main where $a.distro=$aa.distro group by $a.distro";
           $query = mysqli_query($mysqli, $b);
           $count = mysqli_num_rows($query);
         }
+
         echo '<div class="row mb-5 justify-content-center">';
           echo '<div class="col-md-7 text-center">';
             echo "<h2 class='section-title mb-2'>".$count." Distro Found for you</h2>";
