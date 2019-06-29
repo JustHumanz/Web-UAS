@@ -12,13 +12,18 @@
     echo '</div>';
     $zeeb = 0;
      while($data = mysqli_fetch_array($query)) {
-
-  echo '<div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">';
-    echo '<div class="col-md-2">';
-      echo "<a href=distro-info.html><img src=images/icon/".$data['distro'].".png alt='Image' class=img-fluid></a>";
-    echo '</div>';
-    echo '<div class="col-md-4">';
-      echo "<span class='badge badge-success px-2 py-1 mb-3'>".$data['status']."</span>";
+       if ($data['status'] == "Active") {
+         $badge = "'badge badge-success px-2 py-1 mb-3'";
+       }
+       else {
+         $badge = "'badge badge-danger px-2 py-1 mb-3'";
+       }
+       echo '<div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">';
+       echo '<div class="col-md-2">';
+       echo "<a href=distro-info.html><img src=images/icon/".$data['distro'].".png alt='Image' class=img-fluid></a>";
+       echo '</div>';
+       echo '<div class="col-md-4">';
+       echo '<span class='.$badge.'>'.$data['status'].'</span>';
         echo "<h2><a href=distro-list/distro-".$data['distro'].".html>".$data['distro']."</a> </h2>";
     echo '</div>';
     echo '<div class="col-md-3 text-left">';

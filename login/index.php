@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Login</title>
@@ -6,7 +7,7 @@
 <body>
 	<br/>
 	<br/>
-	<center><h2>Humanz</h2></center>
+	<center><h2>Are you admin?</h2></center>
 	<br/>
 	<div class="login">
 	<br/>

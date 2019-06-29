@@ -552,7 +552,7 @@ Minimum
 � Vga : Graphical card 640x480 pixels
 
 Distro Description:
-dracOs Linux is the Penetration OS (Operating System) from Indonesian, open source is built based on the LFS (Linux From Scratch) under the protection of the GNU General Public License v3.0. This operating system is one variant of Linux distributions, which is used to perform security testing (Penetration Testing). dracOs Linux in arm by hundreds hydraulic pentest, forensics and reverse engineering. dracOs Linux is a lightweight linux because for desktop use DWM (Dynamic Window Manager) and suitable for Pentester. Does not use a GUI-based tools and just have the software using the CLI (command line interface) to perform its operations
+DracOs Linux is the Penetration OS (Operating System) from Indonesian, open source is built based on the LFS (Linux From Scratch) under the protection of the GNU General Public License v3.0. This operating system is one variant of Linux distributions, which is used to perform security testing (Penetration Testing). dracOs Linux in arm by hundreds hydraulic pentest, forensics and reverse engineering. dracOs Linux is a lightweight linux because for desktop use DWM (Dynamic Window Manager) and suitable for Pentester. Does not use a GUI-based tools and just have the software using the CLI (command line interface) to perform its operations
 ---------------------------------------------------------------
 
 30.CentOS

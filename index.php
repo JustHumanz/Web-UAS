@@ -32,14 +32,13 @@
     <header class="site-navbar mt-3">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="site-logo col-6"><img src=images/Tux.svg height=50 width=40><a href="index.html">Gnu/Linux</a></div>
+          <div class="site-logo col-6"><img src=images/Tux.svg height=50 width=40><a href="index.php">Gnu/Linux</a></div>
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
               <li><a href="index.php">Home</a></li>
               <li><a href="distro.php?page=1">Distro List</a></li>
               <li><a href="about.html">About</a></li>
-              <li><a href="tutor.html">Tutorials And Learning</a></li>
               <li><a href="blog.html">Review</a></li>
               <li class="d-lg-none"><a href="login">Login</a></li>
             </ul>
@@ -162,13 +161,18 @@
             $query = mysqli_query($mysqli, $b);
             $zeeb = 0;
              while($data = mysqli_fetch_array($query)) {
-
+               if ($data['status'] == "Active") {
+                 $badge = "'badge badge-success px-2 py-1 mb-3'";
+               }
+               else {
+                 $badge = "'badge badge-danger px-2 py-1 mb-3'";
+               }
           echo '<div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">';
             echo '<div class="col-md-2">';
               echo "<a href=distro-info.html><img src=images/icon/".$data['distro'].".png alt='Image' class=img-fluid></a>";
             echo '</div>';
             echo '<div class="col-md-4">';
-              echo "<span class='badge badge-success px-2 py-1 mb-3'>".$data['status']."</span>";
+              echo "<span class=".$badge.">".$data['status']."</span>";
                 echo "<h2><a href=distro-list/distro-".$data['distro'].".html>".$data['distro']."</a> </h2>";
             echo '</div>';
             echo '<div class="col-md-3 text-left">';
