@@ -1,11 +1,12 @@
 <?php
-include_once 'config.php';
+#include_once 'config.php';
 
-$username = mysqli_real_escape_string($conn,$_POST["username"]);
-$password = mysqli_real_escape_string($conn,$_POST["password"]);
-mysqli_close($conn);
-$qur = "SELECT * from admin where username='$username' and password='$password'";
-$login = mysqli_query($mysqli,$qur);
+$con=mysqli_connect("localhost","root","","os");
+$username = mysqli_real_escape_string($con, $_POST['username']);
+$password = mysqli_real_escape_string($con, $_POST['password']);
+$sql_command = "SELECT * from admin where username = '" . $username; $sql_command .= "' AND password = '" . $password . "'";
+
+$login = mysqli_query($con,$sql_command);
 $cek = mysqli_num_rows($login);
 
 if($cek > 0){
