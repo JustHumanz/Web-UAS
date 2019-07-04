@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/animate.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/img.css">
   </head>
   <body id="top">
 
@@ -36,7 +37,7 @@
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-              <li><a href="../index.php" class="nav-link active">Home</a></li>
+              <li><a href="../index.php">Home</a></li>
               <li><a href="../distro.php?page=1">Distro List</a></li>
               <li><a href="../about.html">About</a></li>
               <li><a href="../blog.html">Review</a></li>
@@ -65,8 +66,6 @@
         </div>
       </div>
     </section>
-
-
     <section class="site-section">
       <div class="container">
         <div class="row align-items-center mb-5">
@@ -93,8 +92,27 @@
         <div class="row">
           <div class="col-lg-8">
             <div class="mb-5">
-              <figure class="mb-5"><img src="../images/desktop/OpenSUSE.png" alt="Free Website Template by Free-Template.co"
-                  class="img-fluid rounded"></figure>
+              <figure class="mb-5">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <div class="numbertext">1 / 1</div>
+                    <img src="../images/desktop/OpenSUSE.png" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 2</div>
+                      <img src="../images/desktop/OpenSUSE2.png" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                    <br>
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span>
+                      <span class="dot" onclick="currentSlide(2)"></span>
+                    </div>
+              </figure>
               <h3 class="h5 d-flex align-items-center mb-4 text-primary"><span class="icon-align-left mr-3"></span>Distro
                 Description</h3>
               <p>The openSUSE project is a community program sponsored by SUSE Linux and other companies. Promoting the use of Linux everywhere, this program provides free, easy access to openSUSE, a complete Linux distribution. The openSUSE project has three main goals: make openSUSE the easiest Linux for anyone to obtain and the most widely used Linux distribution; leverage open source collaboration to make openSUSE the world's most usable Linux distribution and desktop environment for new and experienced Linux users; dramatically simplify and open the development and packaging processes to make openSUSE the platform of choice for Linux developers and software vendors.</p>
@@ -129,10 +147,7 @@
         </div>
       </div>
     </section>
-
     <footer class="site-footer">
-
-
       <div class="container">
         <div class="row mb-5">
           <div class="col-6 col-md-3 mb-4 mb-md-0">
@@ -174,7 +189,8 @@
   <script src="../js/jquery.waypoints.min.js"></script>
   <script src="../js/jquery.animateNumber.min.js"></script>
   <script src="../js/owl.carousel.min.js"></script>
-
+  <script src="../js/desktop.js"></script>
+  <script src="../js/custom.js"></script>
 
   <script src="../js/custom.js"></script>
 

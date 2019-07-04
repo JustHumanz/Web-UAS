@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/animate.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/img.css">
   </head>
   <body id="top">
 
@@ -36,7 +37,7 @@
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-              <li><a href="../index.php" class="nav-link active">Home</a></li>
+              <li><a href="../index.php">Home</a></li>
               <li><a href="../distro.php?page=1">Distro List</a></li>
               <li><a href="../about.html">About</a></li>
               <li><a href="../blog.html">Review</a></li>
@@ -93,8 +94,33 @@
         <div class="row">
           <div class="col-lg-8">
             <div class="mb-5">
-              <figure class="mb-5"><img src="../images/desktop/Ubuntu.png" alt="Free Website Template by Free-Template.co"
-                  class="img-fluid rounded"></figure>
+              <figure class="mb-5">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <div class="numbertext">1 / 1</div>
+                    <img src="../images/desktop/Ubuntu3.png" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 2</div>
+                      <img src="../images/desktop/Ubuntu.png" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="../images/desktop/Ubuntu2.png" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                    <br>
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span>
+                      <span class="dot" onclick="currentSlide(2)"></span>
+                      <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+              </figure>
               <h3 class="h5 d-flex align-items-center mb-4 text-primary"><span class="icon-align-left mr-3"></span>Distro
                 Description</h3>
               <p>Ubuntu is a complete desktop Linux operating system, freely available with both community and professional support. The Ubuntu community is built on the ideas enshrined in the Ubuntu Manifesto: that software should be available free of charge, that software tools should be usable by people in their local language and despite any disabilities, and that people should have the freedom to customise and alter their software in whatever way they see fit. "Ubuntu" is an ancient African word, meaning "humanity to others". The Ubuntu distribution brings the spirit of Ubuntu to the software world.</p>
@@ -174,10 +200,8 @@
   <script src="../js/jquery.waypoints.min.js"></script>
   <script src="../js/jquery.animateNumber.min.js"></script>
   <script src="../js/owl.carousel.min.js"></script>
-
-
+  <script src="../js/desktop.js"></script>
   <script src="../js/custom.js"></script>
-
 
 </body>
 
