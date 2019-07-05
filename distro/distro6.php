@@ -20,7 +20,7 @@
        }
        echo '<div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">';
        echo '<div class="col-md-2">';
-       echo "<a href=distro-info.html><img src=images/icon/".$data['distro'].".png alt='Image' class=img-fluid></a>";
+       echo "<a href=distro-list/distro-".$data['distro'].".html><img src=images/icon/".$data['distro'].".png alt='Image' class=img-fluid></a>";
        echo '</div>';
        echo '<div class="col-md-4">';
        echo '<span class='.$badge.'>'.$data['status'].'</span>';
